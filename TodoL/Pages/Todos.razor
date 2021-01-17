@@ -1,0 +1,30 @@
+﻿@page "/todo"
+
+<h3>Todos(@todos.Count())</h3>
+
+<ul>
+    @foreach (var todo in todos)
+    {
+        <li>
+            <input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Title" />
+        </li>
+    }
+</ul>
+
+<input placeholder="Something todo" @bind="newTodo" />
+<button @onclick="AddTodo">Add todo</button>
+
+@code {
+    private IList<TodoItems> todos = new List<TodoItems>();
+    private string newTodo;
+
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItems { Title = newTodo });
+            newTodo = string.Empty;
+        }
+    }
+}

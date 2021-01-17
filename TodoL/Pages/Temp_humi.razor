@@ -1,0 +1,20 @@
+﻿@page "/temp_humi"
+
+<h3>temp_humi</h3>
+
+<h5>@current</h5>
+<button @onclick = "update">새로고침</button>
+
+@code {
+    string current = "time 현재 온도:  C, 습도:  %" ;
+    List<string> myData = new List<string>() ;
+
+    void update()
+    {
+        Dht11.getData(myData) ;
+        foreach(var data in myData)
+        {
+            current += data ;
+        }
+    }    
+}
