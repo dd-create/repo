@@ -138,3 +138,5 @@ E:\Github\repo\TodoL\obj\Debug\net5.0\TodoL.dll
 E:\Github\repo\TodoL\obj\Debug\net5.0\ref\TodoL.dll
 E:\Github\repo\TodoL\obj\Debug\net5.0\TodoL.pdb
 E:\Github\repo\TodoL\obj\Debug\net5.0\TodoL.genruntimeconfig.cache
+E:\Github\repo\TodoL\obj\Debug\net5.0\RazorDeclaration\Pages\MyHome.razor.g.cs
+E:\Github\repo\TodoL\obj\Debug\net5.0\Razor\Pages\MyHome.razor.g.cs

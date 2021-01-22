@@ -93,16 +93,28 @@ using TodoL.Shared;
 #nullable restore
 #line 8 "E:\Github\repo\TodoL\Pages\Temp_humi.razor"
        
-    string current = "time 현재 온도:  C, 습도:  %" ;
-    List<string> myData = new List<string>() ;
+    string current = Dht11.getData() ;
 
+    
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "E:\Github\repo\TodoL\Pages\Temp_humi.razor"
+                                                    
     void update()
     {
-        Dht11.getData(myData) ;
-        foreach(var data in myData)
-        {
-            current += data ;
-        }
+        current = Dht11.getData() ;
+
+        
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 21 "E:\Github\repo\TodoL\Pages\Temp_humi.razor"
+            
     }    
 
 #line default

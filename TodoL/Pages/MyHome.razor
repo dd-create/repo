@@ -1,0 +1,19 @@
+﻿@page "/myhome"
+
+<h3>MyHome</h3>
+
+<h5>@tempHumi</h5>
+<button @onclick="update">새로고침</button>
+
+<h5>@Arduino.getFlame()</h5>
+
+@code {
+    string tempHumi = "현재시간 " + DateTime.Now + " " + Arduino.getTempHumi() ;
+    //string flame = getFlame() ;
+
+    void update()
+    {
+        tempHumi = "현재시간 " + DateTime.Now + " " + Arduino.getTempHumi() ;
+    }
+
+}

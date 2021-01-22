@@ -90,7 +90,7 @@ using TodoL.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "E:\Github\repo\TodoL\Shared\NavMenu.razor"
+#line 43 "E:\Github\repo\TodoL\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
