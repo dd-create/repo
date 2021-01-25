@@ -4,12 +4,13 @@
 
 <h5>@tempHumi</h5>
 <button @onclick="update">새로고침</button>
+<br>
+<button>조명 켜기</button>
+<button>조명 끄기</button>
 
-<h5>@Arduino.getFlame()</h5>
 
 @code {
     string tempHumi = "현재시간 " + DateTime.Now + " " + Arduino.getTempHumi() ;
-    //string flame = getFlame() ;
 
     void update()
     {

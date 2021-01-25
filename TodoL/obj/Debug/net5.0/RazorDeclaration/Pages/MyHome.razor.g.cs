@@ -91,10 +91,9 @@ using TodoL.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 10 "E:\Github\repo\TodoL\Pages\MyHome.razor"
+#line 12 "E:\Github\repo\TodoL\Pages\MyHome.razor"
        
     string tempHumi = "현재시간 " + DateTime.Now + " " + Arduino.getTempHumi() ;
-    //string flame = getFlame() ;
 
     void update()
     {

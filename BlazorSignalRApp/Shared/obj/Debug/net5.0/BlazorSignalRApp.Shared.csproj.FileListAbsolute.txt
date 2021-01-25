@@ -1,0 +1,12 @@
+E:\Github\repo\BlazorSignalRApp\Shared\bin\Debug\net5.0\BlazorSignalRApp.Shared.deps.json
+E:\Github\repo\BlazorSignalRApp\Shared\bin\Debug\net5.0\BlazorSignalRApp.Shared.dll
+E:\Github\repo\BlazorSignalRApp\Shared\bin\Debug\net5.0\ref\BlazorSignalRApp.Shared.dll
+E:\Github\repo\BlazorSignalRApp\Shared\bin\Debug\net5.0\BlazorSignalRApp.Shared.pdb
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.csprojAssemblyReference.cache
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.AssemblyInfoInputs.cache
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.AssemblyInfo.cs
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.csproj.CoreCompileInputs.cache
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.dll
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\ref\BlazorSignalRApp.Shared.dll
+E:\Github\repo\BlazorSignalRApp\Shared\obj\Debug\net5.0\BlazorSignalRApp.Shared.pdb
